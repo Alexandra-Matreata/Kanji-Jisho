@@ -9,7 +9,7 @@ import Foundation
 import UIKit
 
 class xmlParser: NSObject, NSXMLParserDelegate {
-    
+     
     
     var parser = NSXMLParser()
     var posts = NSMutableArray()

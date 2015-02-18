@@ -102,8 +102,8 @@ class CustomSearchVC: UIViewController, UITextFieldDelegate {
         //verification du radical dans le xml
         dataArray = parserKanji.posts
         j = dataArray.count - 1
-        for i in 0...j
-        {
+        for i in 0...j 
+        { 
             aux = dataArray.objectAtIndex(i).objectForKey("radical") as String
             var ma = aux.rangeOfString(RegexRadical, options: .RegularExpressionSearch)
             if(edeja)

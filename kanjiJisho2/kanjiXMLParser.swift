@@ -9,7 +9,7 @@ import Foundation
 import UIKit
 
 class kanjiXMLParser: NSObject, NSXMLParserDelegate {
-    
+     
     var parser = NSXMLParser()
     var posts = NSMutableArray()
     var elements = NSMutableDictionary()

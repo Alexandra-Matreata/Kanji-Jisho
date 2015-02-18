@@ -18,7 +18,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
         {
             tfText = tf.text
             j = dataArray.count - 1
-            scrisfinal = tf.text
+             scrisfinal = tf.text 
             
             for i in 0...j
             {

@@ -67,7 +67,7 @@ class CustomVC: UIViewController, UITextFieldDelegate {
         var j = 0
         var gasit:Bool = false
         if let lbl = sender.titleLabel?.text
-        {
+        {  
             var match = lbl.rangeOfString(myRegex, options: .RegularExpressionSearch)
             
             if(searchedRadicals.count>=1)

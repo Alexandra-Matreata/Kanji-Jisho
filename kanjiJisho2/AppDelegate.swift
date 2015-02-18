@@ -5,9 +5,9 @@
 //  Created by ALABALA on 12/30/14.
 //  Copyright (c) 2014 tt. All rights reserved.
 //
-
+ 
 import UIKit
-import CoreData
+import CoreData 
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {

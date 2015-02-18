@@ -88,7 +88,7 @@ class TVC: UITableViewController, UITableViewDelegate, UITableViewDataSource {
                     var b = 0
                     traitementSense(dataArray.objectAtIndex(i).objectForKey("on") as String)
                     while (b <= matches.count - 1) && (!gasitSearch)
-                    {
+                    {  
                         if (matches[b] == search) || (matches[b] == " " + search)
                         {
                             gasitSearch = true
